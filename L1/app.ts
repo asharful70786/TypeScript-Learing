@@ -3,7 +3,7 @@
  let num2 = 14; ;
  let str = "hello";
 
-function sum(num1:number,num2 : number , str){
+function sum(num1:number,num2 : number , str : string){
     console.log(str)
     return num1 + num2;
 }
