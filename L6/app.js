@@ -1,4 +1,9 @@
 "use strict";
-console.log("app.js");
-console.log("first");
-console.log(2 + 5);
+class Person {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+}
+const p1 = new Person("bitto", 20);
+console.log(p1);
